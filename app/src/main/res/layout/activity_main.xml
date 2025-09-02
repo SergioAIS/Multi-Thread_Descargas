@@ -57,7 +57,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="80dp"
+        android:layout_height="120dp"
         android:layout_marginTop="16dp"
         android:gravity="center"
         android:orientation="horizontal">
@@ -79,6 +79,7 @@
             android:max="100"
             android:progressDrawable="@drawable/progress_bar_circular" />
     </LinearLayout>
+
     <TextView
         android:id="@+id/statusGorra"
         android:layout_width="match_parent"
@@ -88,7 +89,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="93dp"
+        android:layout_height="122dp"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -118,7 +119,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="78dp"
+        android:layout_height="115dp"
         android:gravity="center"
         android:orientation="horizontal">
 
@@ -147,26 +148,27 @@
         android:gravity="center"/>
 
     <LinearLayout
-        android:orientation="horizontal"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center">
+        android:layout_height="132dp"
+        android:gravity="center"
+        android:orientation="horizontal">
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/btnZapatos"
-            android:text="Descargar Zapatos"
             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:background="@drawable/btn_descarga"
-            android:layout_height="wrap_content"/>
+            android:text="Descargar Zapatos" />
+
         <ProgressBar
             android:id="@+id/progressZapatos"
             style="?android:attr/progressBarStyleHorizontal"
             android:layout_width="100dp"
             android:layout_height="100dp"
+            android:layout_marginTop="8dp"
             android:indeterminate="false"
             android:max="100"
-            android:progressDrawable="@drawable/progress_bar_circular"
-            android:layout_marginTop="8dp"/>
+            android:progressDrawable="@drawable/progress_bar_circular" />
     </LinearLayout>
     <TextView
         android:id="@+id/statusZapatos"
