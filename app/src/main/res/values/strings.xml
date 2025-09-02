@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Multi-Thread_Descargas</string>
+    <string name="descargando">Descargando...</string>
+    <string name="descarga_completa">Descarga completa</string>
+</resources>
